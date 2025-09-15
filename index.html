@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Carla Fenimam | Desarrolladora Backend</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+  <!-- NAVBAR -->
+  <nav class="navbar" data-aos="fade-down">
+    <div class="container nav-container">
+      <div class="nav-left">
+        <a href="#inicio" class="nav-logo">Carla Fenimam</a>
+      </div>
+      <ul class="nav-center nav-links">
+        <!-- Español -->
+        <li class="lang-es"><a href="#inicio">Inicio</a></li>
+        <li class="lang-es"><a href="#sobre-mi">Sobre mí</a></li>
+        <li class="lang-es"><a href="#proyectos">Proyectos</a></li>
+        <li class="lang-es"><a href="#skills">Habilidades</a></li>
+
+        <!-- Inglés -->
+        <li class="lang-en" style="display: none;"><a href="#inicio">Home</a></li>
+        <li class="lang-en" style="display: none;"><a href="#sobre-mi">About</a></li>
+        <li class="lang-en" style="display: none;"><a href="#proyectos">Projects</a></li>
+        <li class="lang-en" style="display: none;"><a href="#skills">Skills</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="langToggle" class="btn lang-btn">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="hero" id="inicio" data-aos="fade-right">
+     <canvas id="particle-bg"></canvas>
+    <div class="container hero-flex">
+      <div class="foto-perfil">
+        <img src="img/fotoeditada.png" alt="Foto de Carla"/>
+      </div>
+      <div class="texto-hero">
+       <div class="lang-es">
+  <h1>¡Hola!<br><span>Soy Desarrolladora Mobile 
+    & Backend  </span></h1>
+  <p>Con creatividad y código, convierto ideas en resultados.</p>
+  <a href="#sobre-mi" class="btn">Contáctame</a>
+</div>
+
+<div class="lang-en" style="display: none;">
+  <h1>Hi There!<br><span>I am a Mobile & Backend Developer</span></h1>
+  <p>With creativity and code, I turn ideas into results.</p>
+  <a href="#sobre-mi" class="btn">Contact me</a>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="sobre-mi" id="sobre-mi" data-aos="fade-left">
+    <div class="container sobre-mi-flex">
+      <div class="texto-perfil">
+        <div class="lang-es">
+          <h2>¿Quién soy?</h2>
+          <p>¡Hola! Soy Carla, desarrolladora backend multiplataforma. Me especializo en crear soluciones estables,
+            seguras y escalables que impulsan el funcionamiento interno de las aplicaciones.</p>
+          <p>Disfruto resolver problemas complejos, trabajar con APIs y optimizar procesos detrás de escena. Siempre
+            estoy aprendiendo nuevas tecnologías y mejorando mis habilidades para entregar el mejor resultado posible.
+          </p>
+          <div class="info-cards">
+            <div class="info-card"><strong>Edad:</strong> 24</div>
+            <div class="info-card"><strong>Ubicación:</strong> Valencia, España</div>
+            <div class="info-card"><strong>Email:</strong> carlaborges0905@gmail.com</div>
+            <div class="info-card"><strong>Teléfono:</strong> +34 607 19 70 49</div>
+          </div>
+
+        <div class="botones">
+          <a href="pdf/curriculo-es.pdf" class="btn">Descargar CV - ES</a>
+          <a href="pdf/cv-en.pdf" class="btn">Descargar CV - EN</a>
+      </div>
+        </div>
+
+        <div class="lang-en" style="display: none;">
+          <h2>Who am I?</h2>
+          <p>Hi! I'm Carla, a cross-platform backend developer. I specialize in building secure, stable, and scalable
+            solutions that power the core of applications.</p>
+          <p>I enjoy solving complex problems, working with APIs, and optimizing systems behind the scenes. I’m always
+            learning new tech to deliver better results.</p>
+          <div class="info-cards">
+            <div class="info-card"><strong>Age:</strong> 24</div>
+            <div class="info-card"><strong>Location:</strong> Valencia, España</div>
+            <div class="info-card"><strong>Email:</strong> carlaborges0905@gmail.com</div>
+            <div class="info-card"><strong>Phone:</strong> +34 607 19 70 49</div>
+          </div>
+          <div class="botones">
+          <a href="pdf/curriculo-es.pdf" class="btn">Download CV - ES</a>
+          <a href="pdf/cv-en.pdf" class="btn">Download CV - EN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Sección de Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="lang-es">
+        <h2>🧠 Mis Skills</h2>
+        <div class="skills-grid">
+          <div class="card" data-aos="fade-right">
+            <h3>💻 Lenguajes</h3>
+            <p>Java, JavaScript, Python, Kotlin, HTML, CSS</p>
+          </div>
+
+          <div class="card" data-aos="fade-left">
+            <h3>🧩 Frameworks & Librerías</h3>
+            <p>Spring Boot, JPA (ORM), Firebase (Auth & Storage), Express</p>
+          </div>
+
+          <div class="card" data-aos="fade-right">
+            <h3>🗄️ Bases de Datos</h3>
+            <p>MySQL, PostgreSQL, MongoDB, Oracle, Firebase, JDBC</p>
+          </div>
+
+          <div class="card" data-aos="fade-left">
+            <h3>☁️ Cloud & APIs</h3>
+            <p>Amazon Cloud, Firebase, APIs geográficas, integraciones externas</p>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+            <h3>🛠️ Otros</h3>
+            <p>Diseño de APIs RESTful, autenticación, automatización de procesos, integración de sistemas</p>
+          </div>
+        </div>
+      </div>
+      <!-- English Version -->
+      <div class="lang-en" style="display: none;">
+        <h2>🧠 My Skills</h2>
+        <div class="skills-grid">
+          <div class="card" data-aos="fade-right">
+            <h3>💻 Programming Languages</h3>
+            <p>Java, JavaScript, Python, Kotlin, HTML, CSS</p>
+          </div>
+
+          <div class="card" data-aos="fade-left">
+            <h3>🧩 Frameworks & Libraries</h3>
+            <p>Spring Boot, JPA (ORM), Firebase (Auth & Storage), Express</p>
+          </div>
+
+          <div class="card" data-aos="fade-right">
+            <h3>🗄️ Databases</h3>
+            <p>MySQL, PostgreSQL, MongoDB, Oracle, Firebase, JDBC</p>
+          </div>
+
+          <div class="card" data-aos="fade-left">
+            <h3>☁️ Cloud & APIs</h3>
+            <p>Amazon Cloud, Firebase, Geographic APIs, external integrations</p>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+            <h3>🛠️ Other Skills</h3>
+            <p>RESTful API design, authentication, process automation, system integration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROYECTOS DESTACADOS -->
+  <section class="proyectos" id="proyectos" data-aos="fade-up">
+    <div class="container">
+      <div class="lang-es">
+        <h2>Mis Proyectos</h2>
+        <p>Estos son algunos proyectos destacados. Podés ver más detalles haciendo clic en cada uno.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h2>My Projects</h2>
+        <p>Here are some featured projects. Click to see more details about each one.</p>
+      </div>
+
+      <div class="preview-grid">
+        <!-- Proyecto 1 -->
+        <div class="preview-card" data-aos="fade-left">
+          <img src="img/travelTrace.png" alt="Proyecto 1">
+          <h3>
+            <span class="lang-es">Travel Trace</span>
+            <span class="lang-en" style="display: none;">Travel Trace</span>
+          </h3>
+          <p>
+            <span class="lang-es">
+              Aplicación desarrollada en Kotlin para registrar rutas y puntos geolocalizados, usando Firebase y APIs
+              geográficas en tiempo real.
+            </span>
+            <span class="lang-en" style="display: none;">
+              App developed in Kotlin to record routes and geolocated points, using Firebase and real-time geographic
+              APIs.
+            </span>
+          </p>
+          <a href="proyectos.html" class="btn">
+            <span class="lang-es">Ver app</span>
+            <span class="lang-en" style="display: none;">View more</span>
+          </a>
+        </div>
+
+        <!-- Proyecto 3: Cliente Java con Retrofit -->
+        <div class="preview-card" data-aos="fade-right">
+          <img src="img/gestioProducto.png" alt="Cliente Retrofit">
+          <h3>
+            <span class="lang-es">Cliente Retrofit + SpringBoot</span>
+            <span class="lang-en" style="display: none;">Retrofit Client + SpringBoot</span>
+          </h3>
+          <p>
+            <span class="lang-es">
+              Cliente Java que consume una API REST desarrollada con Spring Boot, usando Retrofit para las llamadas HTTP
+              y Gson para el manejo de datos.
+            </span>
+            <span class="lang-en" style="display: none;">
+              Java client consuming a REST API built with Spring Boot, using Retrofit for HTTP requests and Gson for
+              data handling.
+            </span>
+          </p>
+          <a href="https://github.com/CarlaFeni/TiendaOnlineCliente-" class="btn" target="_blank">
+            <span class="lang-es">Ver código</span>
+            <span class="lang-en" style="display: none;">View code</span>
+          </a>
+        </div>
+                <div class="preview-card" data-aos="fade-right">
+          <img src="img/walletwise.png" alt="Python+Django">
+          <h3>
+            <span class="lang-es">Python + Django + PostgreSQL</span>
+            <span class="lang-en" style="display: none;">Python + Django + PostgreSQL</span>
+          </h3>
+          <p>
+            <span class="lang-es">
+              Cliente Java que consume una API REST desarrollada con Spring Boot, usando Retrofit para las llamadas HTTP
+              y Gson para el manejo de datos.
+            </span>
+            <span class="lang-en" style="display: none;">
+              Java client consuming a REST API built with Spring Boot, using Retrofit for HTTP requests and Gson for
+              data handling.
+            </span>
+          </p>
+          <a href="https://github.com/CarlaFeni/TiendaOnlineCliente-" class="btn" target="_blank">
+            <span class="lang-es">Ver código</span>
+            <span class="lang-en" style="display: none;">View code</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="social-icons">
+  <a href="https://www.linkedin.com/in/carla-fenimam/" target="_blank" class="social-icon linkedin">
+    <img src="img/linkedin-icon.svg" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/CarlaFeni" target="_blank" class="social-icon github">
+    <img src="img/github-icon.svg" alt="GitHub">
+  </a>
+</div>
+
+
+
+  <!-- FOOTER -->
+  <footer id="contacto">
+    <div class="container">
+      <p>© 2025 Carla Fenimam | carlaborges0905@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- AOS script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  </script>
+  <script src="scriptanimation.js"></script>
+</body>
+
+</html>

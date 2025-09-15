@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Carla Fenimam</title>
+  <link rel="stylesheet" href="styleproyecto.css" />
+  <!-- AOS animation library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet"></head>
+
+<body>
+
+   <!-- NAVBAR -->
+  <nav class="navbar" data-aos="fade-down">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="#inicio" class="nav-logo">Carla Fenimam</a>
+      </div>
+      <ul class="nav-center nav-links">
+        <!-- Español -->
+        <li class="lang-es"><a href="http://127.0.0.7:5500/index.html">Inicio</a></li>
+     
+        <!-- Inglés -->
+        <li class="lang-en" style="display: none;"><a href="http://127.0.0.7:5500/index.html">Home</a></li>
+
+      </ul>
+      <div class="nav-right">
+        <button id="langToggle" class="btn lang-btn">EN</button>
+      </div>
+    </div>
+  </nav>
+
+<section class="bloque resumen-proyecto" data-aos="fade-down" data-aos-delay="50">
+  <div class="container">
+    <div class="lang-es">
+      <h2>Travel Trace</h2>
+      <p>Una app para acompañarte en tus aventuras. Guarda tus viajes, visualiza tus rutas y revive cada destino con mapas interactivos y notas personalizadas.
+Desarrollada en Kotlin con Jetpack Compose, integra Firebase (Auth, Firestore, Storage) para la gestión de usuarios y datos, junto con las APIs de GeoNames y Geoapify para obtener información geográfica y lugares turísticos en tiempo real.
+      </p>
+    <!-- Botón de GitHub Español -->
+  <a href="https://github.com/CarlaFeni/TravelTrace" class="btn github-btn" target="_blank">
+  Ver en GitHub
+</a>
+
+    </div>
+    <div class="lang-en" style="display: none;">
+      <h2>Travel Trace</h2>
+      <p>An app to accompany you on your adventures. Save your trips, visualize your routes, and relive each destination with interactive maps and personalized notes.
+      Built with Kotlin and Jetpack Compose, it integrates Firebase (Auth, Firestore, Storage) for user and data management, along with GeoNames and Geoapify APIs to fetch geographic information and tourist spots in real time.</p>
+<!-- Botón de GitHub Inglés -->
+<a href="https://github.com/CarlaFeni/TravelTrace" class="btn github-btn" target="_blank" style="display: none;">
+  View on GitHub
+</a>
+    </div>
+  </div>
+</section>
+
+
+
+  <main class="proyecto-detalle">
+   <!-- Bloque 1 -->
+  <section class="bloque" id="travel-trace" data-aos="fade-right" data-aos-delay="100">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 2.png" alt="Pantalla principal de Travel Trace" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Bienvenida</h3>
+        <p>Introduce la app TravelTrace con un botón deslizante para comenzar la experiencia.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Welcome</h3>
+        <p>Introduces the TravelTrace app with a sliding button to start the experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 2 -->
+<section class="bloque" data-aos="fade-left" data-aos-delay="200">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 3.png" alt="Pantalla de mapa interactivo" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Login</h3>
+        <p>Permite al usuario iniciar sesión e incluye selección rápida de idioma y acceso a registro o recuperación de contraseña.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Login</h3>
+        <p>Allows the user to log in with quick language selection and access to registration or password recovery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 3 -->
+<section class="bloque" data-aos="fade-down" data-aos-delay="300">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 4.png" alt="Registro" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Registro</h3>
+        <p>Permite crear una nueva cuenta introduciendo nombre, correo y contraseña.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Sign Up</h3>
+        <p>Allows creating a new account by entering name, email, and password.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 4 -->
+<section class="bloque" data-aos="fade-left" data-aos-delay="400">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 5.png" alt="Perfil" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Perfil</h3>
+        <p>Muestra el resumen de los viajes del usuario con países visitados, lista de deseos y galería de fotos.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Profile</h3>
+        <p>Displays a summary of the user's trips with visited countries, wishlist, and photo gallery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- Bloque 5 -->
+<section class="bloque" data-aos="fade-up" data-aos-delay="500">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 6.png" alt="Gestión de viajes" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Países visitados</h3>
+        <p>Lista todos los países marcados como visitados con acceso a notas personales.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Visited Countries</h3>
+        <p>Lists all countries marked as visited with access to personal notes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 6 -->
+<section class="bloque" data-aos="fade-left" data-aos-delay="600">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 7.png" alt="Editor de nota" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Editor de nota para país visitado</h3>
+        <p>Permite al usuario valorar y dejar un comentario personalizado sobre el país.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Note Editor for Visited Country</h3>
+        <p>Allows the user to rate and leave a personalized comment about the country.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 7 -->
+<section class="bloque" data-aos="fade-up" data-aos-delay="700">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 8.png" alt="Wishlist" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Wishlist (lista de deseos)</h3>
+        <p>Muestra los países que el usuario quiere visitar con opción de marcarlos como visitados o eliminarlos.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Wishlist</h3>
+        <p>Shows the countries the user wants to visit with the option to mark as visited or delete.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 6 -->
+<section class="bloque" data-aos="fade-left" data-aos-delay="600">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 15.png" alt="Editor de nota" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Pantalla de galería de fotos</h3>
+        <p>En esta pantalla, el usuario puede explorar y filtrar imágenes por país para ver la galería de fotos correspondiente, 
+          seleccionando el país deseado desde un menú desplegable.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Photo Gallery Screen</h3>
+        <p>On this screen, users can browse and filter images by country, 
+          selecting the desired country from a dropdown menu to view the corresponding photo gallery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Bloque 12 -->
+<section class="bloque" data-aos="fade-up" data-aos-delay="1200">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 1.png" alt="Gestión de viajes" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Mapa</h3>
+        <p>Permite editar, eliminar y ver detalles de cada viaje guardado con una interfaz limpia y responsiva.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Map</h3>
+        <p>Allows editing, deleting, and viewing details of each saved trip with a clean and responsive interface.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Bloque 9 -->
+<section class="bloque" data-aos="fade-right" data-aos-delay="900">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 10.png" alt="Gestión de viajes" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Diálogo opciones</h3>
+        <p>Este diálogo permite al usuario gestionar un país seleccionado en el mapa, ofreciendo opciones para marcarlo como visitado, añadirlo a la wishlist, subir recuerdos o consultar información.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Options Dialog</h3>
+        <p>This dialog allows the user to manage a selected country on the map, offering options to mark it as visited, add to wishlist, upload memories, or view information.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 8 -->
+<section class="bloque" data-aos="fade-left" data-aos-delay="800">
+  <div class="container proyecto-grid">
+    <div class="proyecto-img">
+      <img src="img/Group 9.png" alt="Información del país" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Información del país</h3>
+        <p>Muestra detalles generales del país seleccionado y sus lugares turísticos organizados por categoría.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Country Information</h3>
+        <p>Displays general information about the selected country and its tourist sites categorized.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 10 -->
+<section class="bloque" data-aos="fade-down" data-aos-delay="1000">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 11.png" alt="Pantalla de mapa interactivo" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Diálogo añadir nota</h3>
+        <p>Solicita al usuario si desea añadir una nota al país seleccionado.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Add Note Dialog</h3>
+        <p>Prompts the user to add a note to the selected country.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bloque" data-aos="fade-left" data-aos-delay="600">
+  <div class="container proyecto-grid ">
+    <div class="proyecto-img">
+      <img src="img/Group 14.png" alt="Editor de nota" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Pantalla de subida de imágenes</h3>
+        <p>Esta pantalla permite al usuario seleccionar y subir imágenes de un país específico, mostrando una barra de progreso para indicar el avance de la carga.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Image Upload Screen  
+        </h3>
+        <p>This screen allows the user to select and upload images from a specific country, showing a progress bar to indicate the upload status</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bloque 11 -->
+<section class="bloque" data-aos="fade-up" data-aos-delay="1100">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <img src="img/Group 12.png" alt="Gestión de viajes" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Configuración de perfil</h3>
+        <p>Permite modificar nombre, fecha de nacimiento, idioma y color del mapa.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Profile Settings</h3>
+        <p>Allows editing name, birth date, language, and map color.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script src="script.js"></script>
+  <!-- AOS script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  </script>
+
+</body>
+
+</html>
