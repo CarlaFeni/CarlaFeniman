@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Carla Fenimam</title>
+  <link rel="stylesheet" href="styleproyectowallet.css" />
+  <!-- AOS animation library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:wght@300..700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" data-aos="fade-down">
+    <div class="nav-container">
+      <div class="nav-left">
+        <a href="#inicio" class="nav-logo">Carla Fenimam</a>
+      </div>
+      <ul class="nav-center nav-links">
+        <!-- Español -->
+        <li class="lang-es"><a href="http://127.0.0.7:5500/index.html">Volver</a></li>
+        <!-- Inglés -->
+        <li class="lang-en" style="display: none;"><a href="http://127.0.0.7:5500/index.html">Home</a></li>
+      </ul>
+      <div class="nav-right">
+        <button id="langToggle" class="btn lang-btn">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- RESUMEN -->
+  <section class="bloque resumen-proyecto" data-aos="fade-down" data-aos-delay="50">
+    <div class="container">
+      <div class="lang-es">
+        <h2>WalletWise</h2>
+        <p>
+              Aplicación web de gestión financiera desarrollada con Django, que permite a los usuarios registrar, 
+    consultar y eliminar movimientos clasificados en entradas, salidas, ahorro e inversiones. 
+    Incluye autenticación de usuarios, manejo dinámico de datos mediante AJAX, y un dashboard interactivo 
+    con cálculos en tiempo real de saldos y totales.  
+        </p>
+        <a href="https://github.com/CarlaFeni/walletwise" class="btn github-btn" target="_blank">
+          Ver en GitHub
+        </a>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h2>WalletWise</h2>
+        <p>
+             Financial management web application built with Django, allowing users to register, 
+    view, and delete transactions classified into income, expenses, savings, and investments. 
+    Features user authentication, dynamic data handling through AJAX, and an interactive dashboard 
+    with real-time balance and totals calculation. 
+        </p>
+        <a href="https://github.com/CarlaFeni/walletwise" class="btn github-btn" target="_blank">
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main class="proyecto-detalle">
+
+    <!-- Bloque 1: Login -->
+    <section class="bloque" data-aos="fade-right" data-aos-delay="100">
+      <div class="container proyecto-grid">
+        <div class="proyecto-img">
+          <img src="img/walletwise/login.png" alt="Pantalla de login WalletWise" />
+        </div>
+        <div class="proyecto-texto">
+          <div class="lang-es">
+            <h3>Login</h3>
+            <p>Acceso seguro con autenticación de usuarios, opción de registro y recuperación de contraseña.</p>
+          </div>
+          <div class="lang-en" style="display: none;">
+            <h3>Login</h3>
+            <p>Secure access with user authentication, registration option, and password recovery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 2: Registro -->
+    <section class="bloque" data-aos="fade-left" data-aos-delay="200">
+      <div class="container proyecto-grid proyecto-invertido">
+        <div class="proyecto-img">
+          <img src="img/walletwise/registro.png" alt="Pantalla de registro WalletWise" />
+        </div>
+        <div class="proyecto-texto">
+          <div class="lang-es">
+            <h3>Registro</h3>
+            <p>Permite crear una cuenta introduciendo nombre, correo y contraseña de manera sencilla.</p>
+          </div>
+          <div class="lang-en" style="display: none;">
+            <h3>Sign Up</h3>
+            <p>Enables account creation by entering name, email, and password easily.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 3: Dashboard -->
+    <section class="bloque" data-aos="fade-down" data-aos-delay="300">
+      <div class="container proyecto-grid">
+        <div class="proyecto-img">
+          <img src="img/walletwise/dashboard.png" alt="Dashboard WalletWise" />
+        </div>
+        <div class="proyecto-texto">
+          <div class="lang-es">
+            <h3>Dashboard</h3>
+            <p>Resumen visual con totales, saldo disponible y estadísticas de ingresos, gastos, ahorro e inversiones.</p>
+          </div>
+          <div class="lang-en" style="display: none;">
+            <h3>Dashboard</h3>
+            <p>Visual summary with totals, available balance, and statistics of income, expenses, savings, and investments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 4: Gestión de movimientos -->
+    <section class="bloque" data-aos="fade-left" data-aos-delay="400">
+      <div class="container proyecto-grid proyecto-invertido">
+        <div class="proyecto-img">
+          <img src="img/walletwise/movimientos.png" alt="Gestión de movimientos" />
+        </div>
+        <div class="proyecto-texto">
+          <div class="lang-es">
+            <h3>Gestión de movimientos</h3>
+            <p>Registrar, editar o eliminar movimientos clasificados en categorías con actualizaciones dinámicas.</p>
+          </div>
+          <div class="lang-en" style="display: none;">
+            <h3>Transaction Management</h3>
+            <p>Register, edit, or delete categorized transactions with dynamic updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bloque 5: Reportes -->
+    <section class="bloque" data-aos="fade-up" data-aos-delay="500">
+      <div class="container proyecto-grid">
+        <div class="proyecto-img">
+          <img src="img/walletwise/verMovimientos.png" alt="Reportes financieros WalletWise" />
+        </div>
+        <div class="proyecto-texto">
+          <div class="lang-es">
+            <h3>Movimientos</h3>
+              <p>Visualización de todos los movimientos financieros con opciones de filtrado tipo de transacción.</p>
+</div>
+          </div>
+          <div class="lang-en" style="display: none;">
+            <h3>Transactions</h3>
+              <p>View all financial transactions with filtering options by transaction type.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bloque 4: Eliminación Movimientos -->
+<section class="bloque" data-aos="fade-up" data-aos-delay="700">
+  <div class="container proyecto-grid proyecto-invertido">
+    <div class="proyecto-img">
+      <!-- Aquí va tu captura de pantalla -->
+      <img src="img/walletwise/eliminar.png" alt="Pantalla de eliminación de movimiento" />
+    </div>
+    <div class="proyecto-texto">
+      <div class="lang-es">
+        <h3>Eliminar movimiento</h3>
+        <p>Permite al usuario eliminar un movimiento financiero específico con confirmación de seguridad para evitar errores.</p>
+      </div>
+      <div class="lang-en" style="display: none;">
+        <h3>Delete Transaction</h3>
+        <p>Allows the user to delete a specific financial transaction with a security confirmation to prevent mistakes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+  <!-- AOS script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  </script>
+
+</body>
+
+</html>
