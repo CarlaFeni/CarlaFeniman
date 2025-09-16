@@ -510,7 +510,7 @@ footer {
 
 @media (max-width: 768px) {
   .nav-center {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     text-align: center;
   }
@@ -579,3 +579,4 @@ footer {
     padding: 0.6rem 1.2rem;
   }
 }
+
