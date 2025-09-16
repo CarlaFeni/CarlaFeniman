@@ -509,6 +509,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    position: static; 
+  }
   .nav-center {
     flex-direction: row;
     gap: 1rem;
@@ -579,5 +582,6 @@ footer {
     padding: 0.6rem 1.2rem;
   }
 }
+
 
 
