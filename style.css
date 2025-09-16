@@ -524,7 +524,7 @@ footer {
   }
   
   .preview-grid {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   
@@ -579,4 +579,5 @@ footer {
     padding: 0.6rem 1.2rem;
   }
 }
+
 
