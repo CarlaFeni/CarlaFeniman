@@ -492,13 +492,19 @@ footer {
   .hero-flex {
     flex-direction: column;
     text-align: center;
+    align-items: center;     
+    justify-content: center;  
   }
   
   .texto-hero {
     text-align: center;
   }
 
+  .foto-perfil {
+    margin-bottom: 1.5rem; 
+  }
 }
+
 
 @media (max-width: 768px) {
    .navbar {
@@ -602,6 +608,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
