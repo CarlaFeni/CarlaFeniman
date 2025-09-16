@@ -507,17 +507,19 @@ footer {
     width: 100%;
   }
 
-  .foto-perfil {
-    width: 200%;
-    display: flex;
-    justify-content: center;
-  }
+.foto-perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex: 1;
+}
 
-  .foto-perfil img {
-    width: 200px; 
-    height: auto;
-    border-radius: 50%; 
-  }
+.foto-perfil img {
+  width: 200px; 
+  height: auto;
+  border-radius: 50%; 
+}
+
 
   .texto-hero {
     width: 100%;
@@ -635,6 +637,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
