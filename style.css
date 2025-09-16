@@ -487,21 +487,32 @@ footer {
 }
 
 
-/* RESPONSIVE DESIGN */
+/* HERO SECTION RESPONSIVE */
 @media (max-width: 992px) {
   .hero-flex {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;     
-    justify-content: center;  
+    flex-direction: column;      
+    text-align: center;         
+    align-items: center;          
+    justify-content: center;     
+    gap: 2rem;                   
   }
   
   .texto-hero {
     text-align: center;
+    width: 100%;                  
   }
 
   .foto-perfil {
-    margin-bottom: 1.5rem; 
+    margin-bottom: 1.5rem;        
+    width: 100%;
+    display: flex;
+    justify-content: center;     
+  }
+
+  .foto-perfil img {
+    max-width: 250px;             
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -608,6 +619,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
