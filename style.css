@@ -588,6 +588,21 @@ footer {
   }
 }
 
+/* Proyectos responsive */
+@media (max-width: 768px) {
+  .preview-grid {
+    flex-direction: column; 
+    flex-wrap: wrap;         
+    align-items: center;     
+    gap: 1.5rem;             
+  }
+
+  .preview-card {
+    width: 90%;               
+    max-width: 400px;         
+  }
+}
+
 
 
 
