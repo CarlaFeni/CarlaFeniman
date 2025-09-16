@@ -487,32 +487,48 @@ footer {
 }
 
 
-/* HERO SECTION RESPONSIVE */
+/* HERO RESPONSIVE TOTAL */
 @media (max-width: 992px) {
-  .hero-flex {
-    flex-direction: column;      
-    text-align: center;         
-    align-items: center;          
-    justify-content: center;     
-    gap: 2rem;                   
-  }
-  
-  .texto-hero {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    width: 100%;                  
+    padding: 6rem 1rem 4rem;
+  }
+
+  .hero-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    gap: 2rem;
+    width: 100%;
   }
 
   .foto-perfil {
-    margin-bottom: 1.5rem;        
     width: 100%;
     display: flex;
-    justify-content: center;     
+    justify-content: center;
   }
 
   .foto-perfil img {
-    max-width: 250px;             
-    width: 100%;
+    width: 150px; 
     height: auto;
+    border-radius: 50%; 
+  }
+
+  .texto-hero {
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto-hero h1, 
+  .texto-hero p, 
+  .texto-hero .btn {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -608,8 +624,8 @@ footer {
 /* Proyectos responsive */
 @media (max-width: 768px) {
   .preview-grid {
-    flex-direction: column; 
-    flex-wrap: wrap;         
+    flex-direction: column !important; 
+    flex-wrap: wrap !important;         
     align-items: center;     
     gap: 1.5rem;             
   }
@@ -619,6 +635,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
