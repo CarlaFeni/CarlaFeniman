@@ -508,6 +508,7 @@ footer {
   }
 
 .foto-perfil {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -637,6 +638,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
