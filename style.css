@@ -154,7 +154,7 @@ a:hover {
   gap: 2rem;
 }
 
-foto-perfil { flex: 1 1 400px; text-align: center; } 
+foto-perfil { flex: 1 1 100px; text-align: center; } 
 .foto-perfil img { border-radius: none; }
 
 .texto-hero {
@@ -631,6 +631,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
