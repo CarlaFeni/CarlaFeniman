@@ -160,7 +160,9 @@ a:hover {
 }
 
 .foto-perfil img {
-  border-radius: none;
+  border-radius: 50%; 
+  width: 200px;       
+  height: auto;        
 }
 
 
@@ -638,6 +640,7 @@ footer {
     max-width: 400px;         
   }
 }
+
 
 
 
