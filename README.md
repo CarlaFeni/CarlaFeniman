@@ -30,17 +30,17 @@ Actualmente desarrollo proyectos personales y me capacito en **Microsoft Azure**
 
 ## 💻 Proyectos Destacados
 
-### 1️⃣ Proyecto Django / Firebase
-- Sistema de gestión de información con backend en **Django** y base de datos **Firebase**.  
-- Funcionalidades: análisis de datos, gestión de usuarios y automatización de procesos.
+### 1️⃣ Travel Trace
+- Aplicación desarrollada en **Kotlin** para registrar rutas y puntos geolocalizados, usando **Firebase** y APIs geográficas en tiempo real.  
+- Funcionalidades: seguimiento de rutas, geolocalización en tiempo real y registro de puntos de interés.
 
-### 2️⃣ Proyecto ERP / Análisis de Datos
-- Integración de módulos ERP para simulación de procesos financieros y contables.  
-- Enfoque en **optimización de procesos** y reporting de indicadores clave.
+### 2️⃣ Cliente Retrofit + SpringBoot
+- Cliente en **Java** que consume una **API REST** desarrollada con **Spring Boot**, usando **Retrofit** para llamadas HTTP y **Gson** para manejo de datos.  
+- Funcionalidades: integración con API, manejo de datos en tiempo real y consumo eficiente de servicios web.
 
-### 3️⃣ Otros Proyectos
-- Automatización de tareas y scripts en **Python y JavaScript**.  
-- Integración de APIs externas y servicios cloud en proyectos personales.
+### 3️⃣ Python + Django + PostgreSQL + Bootstrap
+- Aplicación web de **gestión financiera** con registro y control de movimientos (ingresos, gastos, ahorro e inversiones), autenticación de usuarios y **dashboard dinámico en tiempo real**.  
+- Funcionalidades: gestión de finanzas personales, visualización interactiva de datos y control seguro de información financiera.
 
 ---
 
