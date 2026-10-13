@@ -1,8 +1,10 @@
 # Carla Feniman – Portfolio
 
-¡Hola! Soy **Carla Feniman**, profesional en **Tecnologías de la Información** con formación en Desarrollo de Aplicaciones Multiplataforma y enfoque en **soporte técnico, resolución de incidencias y optimización de procesos empresariales**.  
+¡Hola! Soy **Carla Fenimam**, profesional de **Tecnologías de la Información**, formada en Desarrollo de Aplicaciones Multiplataforma y especializada en **integración de software, transformación y automatización de datos y soporte técnico**.
 
-Actualmente desarrollo proyectos personales y me capacito en **Microsoft Azure** y **Soporte Técnico orientado al cliente**, aplicando mis conocimientos en **ERP, Python, Kotlin, TypeScript, Angular y entornos cloud (AWS)** para ofrecer soluciones IT efectivas.
+Actualmente trabajo como **Técnica de Integración de Sistemas y Soporte al Cliente**, participando en procesos de integración de datos de facturación electrónica entre distintos formatos empresariales (XML, JSON, CSV e IDOC), así como en la resolución de incidencias, la validación de procesos y la coordinación con clientes y equipos técnicos.
+
+Cuento con conocimientos en **Python, Java, ERP, bases de datos SQL y NoSQL y entornos cloud como AWS**, orientados a la optimización de procesos y al desarrollo de soluciones tecnológicas eficientes.
 
 ---
 
